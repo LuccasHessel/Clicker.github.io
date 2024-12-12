@@ -18,5 +18,4 @@ Este é um jogo clicker simples desenvolvido com HTML, CSS e JavaScript. O objet
 - CSS
 - JavaScript
 
-## Autor
 - **Luccas Maia Hessel** - [Github](https://github.com/LuccasHessel)
