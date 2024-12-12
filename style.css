@@ -1,0 +1,42 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2c003e;
+    margin: 0;
+    color: #f0e4d7;
+}
+
+#game-container {
+    text-align: center;
+    background-color: #3e005a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#click-button, #upgrade-button, #auto-clicker-button, #interval-upgrade-button {
+    background-color: #f0e4d7;
+    color: #2c003e;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #b8a19c;
+    font-family: 'Press Start 2P', cursive;
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+#click-button:hover, #upgrade-button:hover, #auto-clicker-button:hover, #interval-upgrade-button:hover {
+    background-color: #e0d4c7;
+}
+
+#click-button:active, #upgrade-button:active, #auto-clicker-button:active, #interval-upgrade-button:active {
+    box-shadow: 0 2px #b8a19c;
+    transform: translateY(4px);
+}
